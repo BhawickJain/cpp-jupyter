@@ -10,6 +10,9 @@ services:
     working_dir: /usr/src/workspace
     entrypoint:
       [
+        "conda",
+        "activate",
+        "cling-jupyter",
         "jupyter",
         "notebook",
         "--ip='*'",
