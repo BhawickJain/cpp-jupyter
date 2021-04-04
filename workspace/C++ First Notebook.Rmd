@@ -1,0 +1,44 @@
+---
+jupyter:
+  jupytext:
+    formats: ipynb,Rmd
+    text_representation:
+      extension: .Rmd
+      format_name: rmarkdown
+      format_version: '1.2'
+      jupytext_version: 1.11.1
+  kernelspec:
+    display_name: C++14
+    language: C++14
+    name: xcpp14
+---
+
+## C++ Kernel
+
+This Notebook has the C++ Kernel available.
+
+Followig some instruction command to test out Kernel with [[Cling-Output-Stream](https://github.com/jupyter-xeus/xeus-cling/blob/master/notebook.png)]
+
+```{c++}
+#include <iostream>
+#include <string>
+
+std::cout << "some output" << std::endl;
+```
+
+```{c++}
+std::cerr << "some error" << std::endl;
+```
+
+```{c++}
+int j = 5;
+```
+
+```{c++}
+j
+```
+
+```{c++}
+std::string greetings = "Hello world!";
+std::cout << greetings << std::endl;
+```
