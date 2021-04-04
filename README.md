@@ -14,6 +14,8 @@ Having a Notebook to build, run _and_ discuss algorithm in C++ would be great. T
 `[ ]` Annotate and explain each step of the `Dockerfile` and `docker-compose.yaml` file.  
 `[x]` Write some C++ code and try out each Kernel that is available.  
 `[?]` Is C++ 20 available or coming soon in CLing?   
+`[?]` Why does `ENTRYPOINT [ "conda","run","--no-capture-output","-n","cling-jupyter"]` but `conda activate`?
+`[?]` Why use an `env` folder, use [[2019-Sarmiento](https://towardsdatascience.com/a-guide-to-conda-environments-bc6180fc533)]  
 
 
 ## Usage
@@ -80,3 +82,15 @@ export conda environment changes, only the ones you installed, let conda handle 
 ```
 conda env export --from-history > environment.yml
 ```
+
+## References
+
+[[2019-Sarmiento](https://towardsdatascience.com/a-guide-to-conda-environments-bc6180fc533)] The Definitive Guide to Conda Environments
+
+[[2021-Turner-Tauring](https://pythonspeed.com/articles/activate-conda-dockerfile/)] Activating a Conda environment in your Dockerfile
+
+[[2018-Conda-Issue-7980](https://github.com/conda/conda/issues/7980)]
+
+[[xues-cling-github](https://github.com/jupyter-xeus/xeus-cling)]
+
+[[cling-cern](https://root.cern/cling/)]
