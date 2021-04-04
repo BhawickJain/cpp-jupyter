@@ -8,16 +8,13 @@ services:
     volumes:
       - ./workspace:/usr/src/workspace
     working_dir: /usr/src/workspace
-    # entrypoint:
-    #   [
-    #     "conda",
-    #     "activate",
-    #     "cling-jupyter",
-    #     "jupyter",
-    #     "notebook",
-    #     "--ip='*'",
-    #     "--port=8888",
-    #     "--no-browser",
-    #     "--allow-root",
-    #   ]
-    entrypoint: ["conda", "info"]
+    command:
+      [
+        "jupyter",
+        "notebook",
+        "--ip='*'",
+        "--port=8888",
+        "--no-browser",
+        "--allow-root",
+      ]
+    # entrypoint: ["conda", "info"]
