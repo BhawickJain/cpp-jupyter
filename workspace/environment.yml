@@ -1,0 +1,11 @@
+name: base
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - conda
+  - python=3.8
+  - jupyter
+  - jupytext
+  - xeus-cling
+prefix: /opt/conda
