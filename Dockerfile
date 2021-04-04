@@ -3,5 +3,4 @@ FROM continuumio/miniconda3
 WORKDIR /workspace/:/usr/src/workspace/
 COPY workspace/environment.yml .
 
-RUN conda env create -f environment.yml
-RUN conda install -c conda-forge jupytext
+RUN conda env create -f environment.yml && conda activate cling-jupyter
