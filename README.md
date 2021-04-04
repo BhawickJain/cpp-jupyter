@@ -11,11 +11,12 @@ Having a Notebook to build, run _and_ discuss algorithm in C++ would be great. T
 
 ## TODO
 `[x]` Figure out a way to export, import and install the C++ conda environment to supper `docker-compose up / down` command  
-`[ ]` Annotate and explain each step of the `Dockerfile` and `docker-compose.yaml` file.  
 `[x]` Write some C++ code and try out each Kernel that is available.  
 `[?]` Is C++ 20 available or coming soon in CLing?   
 `[?]` Why does `ENTRYPOINT [ "conda","run","--no-capture-output","-n","cling-jupyter"]` but `conda activate`?
 `[?]` Why use an `env` folder, use [[2019-Sarmiento](https://towardsdatascience.com/a-guide-to-conda-environments-bc6180fc533)]  
+`[ ]` Annotate and explain each step of the `Dockerfile` and `docker-compose.yaml` file.  
+`[ ]` Create a vanilla Conda-Jupyter Docker setup  
 
 
 ## Usage
