@@ -19,6 +19,8 @@ This Notebook has the C++ Kernel available.
 
 Followig some instruction command to test out Kernel with [[Cling-Output-Stream](https://github.com/jupyter-xeus/xeus-cling/blob/master/notebook.png)]
 
+Trying out the various Kernels available, it seems C++14 is the least bug ridden. Best to read its [[cling-docs](http://xeus-cling.readthedocs.io/)] to be sure.
+
 ```{c++}
 #include <iostream>
 #include <string>
