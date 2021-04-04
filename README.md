@@ -52,7 +52,7 @@ result should be
             shell level : 2
        user config file : /root/.condarc
  populated config files : 
-```
+
 
           conda version : 4.9.2
     conda-build version : not installed
