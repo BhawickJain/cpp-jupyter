@@ -1,4 +1,4 @@
-name: base
+name: cling-jupyter
 channels:
   - conda-forge
   - defaults
